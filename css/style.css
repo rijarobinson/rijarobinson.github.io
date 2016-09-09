@@ -1,10 +1,9 @@
-@import url(https://weloveiconfonts.com/api/?family=zocial);
-@import url(https://weloveiconfonts.com/api/?family=fontawesome);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome|zocial);
 
 /*special fonts styling*/
 
 [class*="zocial-"]:before {
-  font-family: "zocial", sans-serif;
+  font-family: 'zocial', sans-serif;
   text-shadow: 5px 5px 5px #aaa;
   width: 5vw;
   font-size: 40px;
@@ -12,7 +11,7 @@
 }
 
 [class*="fontawesome-"]:before {
-  font-family: "fontawesome", sans-serif;
+  font-family: 'fontawesome', sans-serif;
   text-shadow: 5px 5px 5px #aaa;
   width: 5vw;
   font-size: 40px;
