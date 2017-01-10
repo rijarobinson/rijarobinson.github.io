@@ -16,41 +16,41 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-md-3">
+      <div class="row header-background">
+<!--        <div class="col-md-3 header-background">
             <img src="images/mr_150px.jpg" class="img-responsive" alt="Marija Pic">
-        </div>
-        <div class="col-md-9 text-uppercase">
-          <h1 class="text-right">
+        </div>-->
+        <div class="col-md-12 text-uppercase header-background">
+          <h1 class="text-center header-background">
             Marija Robinson
           </h1>
-          <h4 class="text-right">
+          <h4 class="text-center header-background">
             Full Stack Software Engineer
           </h4>
           <!--TODO: final links to social sites to be determined-->
-          <div class="text-right">
-              <a href="http://www.github.com/rijarobinson" class="fontawesome-github" alt="Git Hub"></a>
-              <a href="https://www.linkedin.com/in/marijarob" class="fontawesome-linkedin-sign" alt="LinkedIn"></a>
-              <a href="mailto:marija@springmail.com" class="fontawesome-envelope" alt="Email"></a>
-              <a href="http://www.plus.google.com" class="zocial-googleplus" alt="Google+"></a>
+          <div class="text-center header-background">
+              <a href="http://www.github.com/rijarobinson" class="fontawesome-github hover icons" alt="Git Hub"></a>
+              <a href="https://www.linkedin.com/in/marijarob" class="fontawesome-linkedin-sign hover icons" alt="LinkedIn"></a>
+              <a href="mailto:marija@springmail.com" class="fontawesome-envelope hover icons" alt="Email"></a>
+              <a href="http://www.plus.google.com" class="zocial-googleplus hover icons" alt="Google+"></a>
           </div>
         </div>
       </div>
-      <hr>
-      <div class="row">
-        <div class="col-md-12">
-          <figure>
+<!--testing out this style, delete after 2/10/17-->
+<!--      <hr>-->
+      <div class="row header-image">
+        <div class="col-md-12 header-image">
+           <figure>
             <picture>
-              <source media="(max-width: 700px)" srcset="images/work_outside_crop.png">
-              <img src="images/work_outside1280.png" class="img-responsive img-plain" alt="Coding Outside">
+              <img src="images/road_less.png" class="img-responsive img-plain fade" alt="Forest Trail Picture">
             </picture>
-            <figcaption>
+<!--            <figcaption>
               Coding en plein air. Refreshing!
             </figcaption>
-          </figure>
-        </div>
+          </figure>-->
+          </div>
       </div>
-      <hr>
+<!--      <hr>-->
   <!--TODO: final links to projects to be determined-->
       <div class="row">
         <div class="col-md-12">
@@ -59,16 +59,17 @@
           </h2>
         </div>
       </div>
+      <div class="projects-container">
       <div class="row">
-        <div class="col-md-4">
-          <img src="images/xpns-screenshot.png" class="img-responsive" data-toggle="modal" data-target="#exploreNorthShore" alt="Explore North Shore App Screenshot" title="Click to see a description of this project.">
-          <h4>
+        <div class="col-md-4 indiv-project rt-mar-10">
+          <img src="images/xpns-screenshot.png" class="img-responsive img-plain" data-toggle="modal" data-target="#exploreNorthShore" alt="Explore North Shore App Screenshot" title="Click to see a description of this project.">
+          <h4 class="project-headers">
             EXPLORE NORTH SHORE
           </h4>
             <a href="https://github.com/rijarobinson/explore-north-shore">
               https://github.com/rijarobinson/explore-north-shore
             </a>
-            <h4>
+            <h4 class="project-headers">
               Live Site
             </h4>
             <a href="https://rijarobinson.github.io/explore-north-shore">
@@ -76,15 +77,15 @@
             </a>
             <br><br><br>
         </div>
-        <div class="col-md-4">
-          <img src="images/starry-night.png" class="img-responsive" data-toggle="modal" data-target="#starryNight" alt="Starry Night Screenshot" title="Click to see a description of this project.">
-          <h4>
+        <div class="col-md-4 indiv-project rt-mar-10">
+          <img src="images/starry-night.png" class="img-responsive img-plain" data-toggle="modal" data-target="#starryNight" alt="Starry Night Screenshot" title="Click to see a description of this project.">
+          <h4 class="project-headers">
             FIND A STARRY NIGHT
           </h4>
             <a href="https://github.com/rijarobinson/starry-night">
               https://github.com/rijarobinson/starry-night
             </a>
-            <h4>
+            <h4 class="project-headers">
               <br>
               <br>
               <!--TODO: Enhancement: Add link to live site here-->
@@ -93,15 +94,15 @@
               <!--TODO: Enhancement: Add link to live site here-->
             </a>
         </div>
-        <div class="col-md-4 end">
-          <img src="images/animal-stories.png" class="img-responsive" data-toggle="modal" data-target="#animalStories" alt="Animal Stories Screenshot" title="Click to see a description of this project.">
-          <h4>
+        <div class="col-md-4 end indiv-project">
+          <img src="images/animal-stories.png" class="img-responsive img-plain" data-toggle="modal" data-target="#animalStories" alt="Animal Stories Screenshot" title="Click to see a description of this project.">
+          <h4 class="project-headers">
             ANIMAL STORIES
           </h4>
             <a href="https://github.com/rijarobinson/animal-stories">
               https://github.com/rijarobinson/animal-stories
             </a>
-            <h4>
+            <h4 class="project-headers">
               Live Site
             </h4>
             <a href="http://animal-stories.appspot.com/blog/">
@@ -112,9 +113,9 @@
       </div>
       <div class="row">
         <!--TODO: Enhancement: Add link to live site here-->
-        <div class="col-md-4">
-          <img src="images/tournament_crop.png" class="img-responsive" data-toggle="modal" data-target="#tournament" alt="Tournament Results Database Screenshot" title="Click to see a description of this project.">
-          <h4>
+        <div class="col-md-4 indiv-project rt-mar-10">
+          <img src="images/tournament_crop.png" class="img-responsive img-plain" data-toggle="modal" data-target="#tournament" alt="Tournament Results Database Screenshot" title="Click to see a description of this project.">
+          <h4 class="project-headers">
             TOURNAMENT RESULTS DATABASE
           </h4>
             <a href="https://github.com/rijarobinson/tournament">
@@ -122,9 +123,9 @@
             </a>
           <!--TODO: Enhancement: Add link to video demo of app here-->
         </div>
-        <div class="col-md-4 end">
-          <img src="images/play_with_me540.png" class="img-responsive" data-toggle="modal" data-target="#playWithMe" alt="Play with Me Screenshot" title="Click to see a description of this project.">
-          <h4>
+        <div class="col-md-4 end indiv-project">
+          <img src="images/play_with_me540.png" class="img-responsive img-plain" data-toggle="modal" data-target="#playWithMe" alt="Play with Me Screenshot" title="Click to see a description of this project.">
+          <h4 class="project-headers">
             PLAY WITH ME
           </h4>
             <a href="https://github.com/rijarobinson/play_with_me">
@@ -133,6 +134,8 @@
             <br><br>
           <!--TODO: Enhancement: Add link to download app here-->
         </div>
+
+      </div>
       </div>
     </div>
   <div class="row">
