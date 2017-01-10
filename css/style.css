@@ -1,22 +1,14 @@
-@import url(https://weloveiconfonts.com/api/?family=fontawesome|zocial);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 
 /*special fonts styling*/
 
-[class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif;
-  text-shadow: 5px 5px 5px #1d6258;
-  width: 5vw;
-  font-size: 40px;
-  text-align: right;
-}
-
-[class*="fontawesome-"]:before {
+/*[class*="fontawesome-"]:before {
   font-family: 'fontawesome', sans-serif;
   text-shadow: 5px 5px 5px #1d6258;
   width: 5vw;
   font-size: 40px;
   text-align: right;
-}
+}*/
 
 * {
   font-family: "Lato", sans-serif;
@@ -116,6 +108,14 @@ a:link {
   text-decoration: none;
 }
 
+a:link.icons {
+  font-size: 40px;
+  color: red;
+  background-color: #5cb;
+  text-shadow: 5px 5px 5px #1d6258;
+  width: 5vw;
+}
+
 a:visited {
   color: #009;
   background-color: #fff;
@@ -143,6 +143,7 @@ hr {
   background-color: #5cb;
   margin-top: 0px;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* Effects */
