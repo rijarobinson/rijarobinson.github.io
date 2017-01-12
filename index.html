@@ -14,7 +14,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900,900italic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Da" rel="stylesheet">
   </head>
-  <body>
+  <body onload="document.getElementById('picture').style.opacity='1';
+                document.getElementById('projects-container').style.opacity='1';">
     <div class="container">
       <div class="row header-background">
 <!--        <div class="col-md-3 header-background">
@@ -49,9 +50,7 @@
       <div class="row header-image hidden-xs">
         <div class="col-md-12 header-image">
            <figure>
-            <picture>
-              <img src="images/road_less.jpg" class="img-responsive img-plain" alt="Forest Trail Picture">
-            </picture>
+              <img id="picture" src="images/road_less.jpg" class="img-responsive img-plain" alt="Forest Trail Picture">
 <!--            <figcaption>
               Coding en plein air. Refreshing!
             </figcaption>
@@ -67,7 +66,7 @@
           </h2>
         </div>
       </div>
-      <div class="projects-container">
+      <div id="projects-container" class="projects-container">
       <div class="row">
 <!--large view-->
         <div class="col-md-4 indiv-project rt-mar-10 hidden-xs hidden-sm">

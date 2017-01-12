@@ -13,6 +13,26 @@
   background-color: #5cb;
 }
 
+#picture {
+    opacity:0;
+    transition: opacity 2s;
+    -webkit-transition: opacity 2s ease-in; /* Safari */
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
+}
+
+#projects-container {
+    opacity:0;
+    transition: opacity 2s;
+    -webkit-transition: opacity 2s ease-in; /* Safari */
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
+}
+
 /*row styling*/
 
 .row {
