@@ -38,5 +38,3 @@ The website utilizes bootstrap for the framework of the site.
 **To customize the files**, you can open the index.html file in your favorite text editor and make changes as desired. You can review the references to bootstrap using the bootstrap.css file, but good practice is to make modifications/additions in a separate css file (in this case, you can change the style.css file). Save the files and refresh index.html to see your new web page.
 
 Mockup/basic design ideas for this application were provided by [Udacity](http://www.Udacity.com). Additional instruction on Front End Development is available by signing up for a class on their site. Bootstrap provides the framework. Additional enhancements by Marija Robinson.
-
-I welcome any feedback on this project at marija@springmail.com.
